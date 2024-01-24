@@ -24,7 +24,7 @@ export default function App() {
         <TextInput keyboardType='numeric' style={{ width: 200, borderColor: 'grey', borderWidth: 1, marginBottom: 5 }} onChangeText={input => setValue1(input)} />
         <TextInput keyboardType='numeric' style={{ width: 200, borderColor: 'grey', borderWidth: 1, marginBottom: 5 }} onChangeText={input => setValue2(input)} />
       </View>
-      <View style={{ flexDirection: 'row', justifyContent: 'center' }}>
+      <View style={{ flexDirection: 'row', justifyContent: 'center', columnGap: 15 }}>
         <Button title='+' onPress={addition} />
         <Button title='-' onPress={subtraction} />
       </View>
